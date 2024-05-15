@@ -1,0 +1,11 @@
+1) Example for below topic both c++ and python.
+    OOP:
+    1) Class
+    2) Object
+    3) Methods
+    4) Inheritance
+    5) Encaptulation
+    6) Polymorphism
+    7) Abstraction
+2) abstract vs interface
+3) virtual keyword
