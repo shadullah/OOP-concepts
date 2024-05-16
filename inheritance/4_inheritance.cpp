@@ -22,27 +22,27 @@ public:
 };
 
 // multiple inheritance
-class Third : public FriendCharacter
-{
-public:
-    string charact;
-    Third(string character) : FriendCharacter(character)
-    {
-        this->charact = character;
-    }
+// class Third : public FriendCharacter
+// {
+// public:
+//     string charact;
+//     Third(string character) : FriendCharacter(character)
+//     {
+//         this->charact = character;
+//     }
 
-    void print()
-    {
-        cout << "Third class called" << endl;
-    }
-};
+//     void print()
+//     {
+//         cout << "Third class called" << endl;
+//     }
+// };
 
 int main()
 {
-    Third obj("alom");
+    FriendCharacter obj("alom");
     obj.reads();
-    obj.charact = "she";
-    obj.print();
+    // obj.charact = "she";
+    // obj.print();
 
     return 0;
 }
