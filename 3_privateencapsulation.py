@@ -1,17 +1,17 @@
 class A:
-    _value = 0
+    _value = "a string"
     def __init__(self,value) -> None:
         self._value = value
 
-    def display(self):
+    def show(self):
         print(self._value)
 
 
 
-obj = A(5)
-obj.display()
+obj = A("who")
+obj.show()
 
-obj._value = 15
-obj.display()
+obj._value = "this is me"
+obj.show()
 
 print(obj.__dict__)
