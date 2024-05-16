@@ -1,3 +1,1 @@
-ENA price is 5000000
-Total seats 24
-Temp 20
+Drawing Circle
